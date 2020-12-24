@@ -7,7 +7,7 @@ In this example we are using start case to start the other cases dynamically.
 
 Post deploying the kJar follow the the below steps.
 
-* Step 1: Create a process instance for [parent-process]()
+* Step 1: Create a process instance for [parent-process](/src/main/resources/com/temenos/process_to_dynamic_case/parent-process.bpmn)
 * Step 2: Signal created case instance with signal name and dyncamic case id as data to signal
 ![project modules1](images/Signal1.png)
 * Step 3: Now observe the newly created case instance.
